@@ -1,0 +1,1 @@
+# Laptop erhalten, Programme und WSL installiert
