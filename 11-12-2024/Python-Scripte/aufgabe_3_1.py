@@ -6,7 +6,7 @@ print("1. + Addition")
 print("2. - Subtraktion")
 print("3. * Multiplikation")
 print("4. / Division")
-choice = input("Geben Sie die Zahl der Auswahl ein (1-4): ")
+choice = input("Geben die Zahl der Auswahl ein (1-4): ")
 
 
 
