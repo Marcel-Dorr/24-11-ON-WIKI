@@ -8,8 +8,6 @@ print("3. * Multiplikation")
 print("4. / Division")
 choice = input("Geben die Zahl der Auswahl ein (1-4): ")
 
-
-
 if choice == "1":
     print(f"{a} + {b} = {a + b}")
 elif choice == "2":
