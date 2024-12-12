@@ -12,12 +12,14 @@ def get_age_input(person_name):
         except ValueError:
             print("Ungültige Eingabe. Bitte gib eine ganze Zahl ein.")
 
-# Funktion zur Eingabe des Namens einer Person
-def get_name_input(person_number):
+# Funktion zur Eingabe des vollständigen Namens (Vorname + Nachname)
+def get_full_name_input(person_number):
     while True:
-        name = input(f"Gib den Namen von Person {person_number} ein: ").strip()
-        if name:
-            return name
+        first_name = input(f"Gib den Vornamen von Person {person_number} ein: ").strip()
+        last_name = input(f"Gib den Nachnamen von Person {person_number} ein: ").strip()
+        
+        if first_name and last_name:
+            return f"{first_name} {last_name}"
         else:
             print("Der Name darf nicht leer sein. Versuch es noch einmal.")
 
@@ -37,8 +39,8 @@ def calculate_lived_days(age):
 # Hauptteil des Programms
 def main():
     # Namen der Personen abfragen
-    name_person1 = get_name_input(1)
-    name_person2 = get_name_input(2)
+    name_person1 = get_full_name_input(1)
+    name_person2 = get_full_name_input(2)
 
     # Alter der beiden Personen abfragen
     age_person1 = get_age_input(name_person1)
