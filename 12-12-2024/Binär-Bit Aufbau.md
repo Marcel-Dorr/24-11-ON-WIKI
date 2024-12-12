@@ -32,7 +32,7 @@ Ein **Binär-Bit** (kurz für *Binary Digit*) ist die grundlegende Informationse
 ### 3. **Position und Gewichtung**:
    - In einem Zahlenwert trägt jedes Bit eine Gewichtung, die von seiner Position abhängt:
      - Beispiel: Im Wert `101` (im Binärsystem) bedeutet dies:
-       - \(1 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0 = 4 + 0 + 1 = 5\) (im Dezimalsystem).
+       - \(1 ⋅ 2^2 + 0 ⋅ 2^1 + 1 ⋅ 2^0 = 4 + 0 + 1 = 5\) (im Dezimalsystem).
 
 ---
 
