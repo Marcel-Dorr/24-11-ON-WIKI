@@ -20,11 +20,15 @@ complex_condition = (a < b and a != 15) or (b >= 20)
 print(f"Complex condition ((a < b and a != 15) or (b >= 20)): {complex_condition}")
 
 # If-elif
-if a > b:
-    print("a is greater than b.")
-elif a < b:
+if a < b:
     print("a is less than b.")
+elif a <= b:
+    print("a is less than or equal to b.")
+elif a > b:
+    print("a is greater than b.")
+elif a >= b:
+    print("a is greater than or equal to b.")
 elif a == b:
     print("a is equal to b.")
-else:
+elif a != b:
     print("a is not equal to b.")
