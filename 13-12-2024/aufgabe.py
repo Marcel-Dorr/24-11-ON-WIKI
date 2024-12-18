@@ -2,8 +2,8 @@ from datetime import datetime, timedelta
 import json
 
 # Dateien für Kurs- und Ferieninformationen sowie eigene Urlaubsplanung
-dashboard_file = "./dashboard.json"
-user_urlaub_file = "./user_urlaub.json"
+dashboard_file = "dashboard.json"
+user_urlaub_file = "user_urlaub.json"
 
 # Kurs- und Ferieninformationen laden
 def load_dashboard():
